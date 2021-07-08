@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, MetaData
 
 engine = create_engine('mysql+pymysql://root:password@localhost:3305/test')
 meta = MetaData()

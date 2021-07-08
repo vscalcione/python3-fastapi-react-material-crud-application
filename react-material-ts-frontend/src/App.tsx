@@ -3,10 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 
 import NavbarComponent from './components/navbar/NavbarComponent';
+import { FormComponent } from './components/form/FormComponent';
 
 function App() {
   return (
-    <NavbarComponent />
+    <div>
+      <NavbarComponent />
+      <FormComponent></FormComponent>
+    </div>
   );
 }
 
