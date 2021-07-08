@@ -4,8 +4,8 @@ from config.db import meta, engine
 
 
 users = Table(
-    'users', 
-    meta, 
+    'users',
+    meta,
     Column('id', Integer, primary_key=True),
     Column('first_name', String(255)),
     Column('last_name', String(255)),
