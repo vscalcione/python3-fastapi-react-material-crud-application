@@ -1,0 +1,5 @@
+## frontend
+react-ts-material-frontend/node_modules/*
+
+## backend
+python3-fastapi-backend/venv/*
